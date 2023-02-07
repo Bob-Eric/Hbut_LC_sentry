@@ -14,4 +14,12 @@
         <arg name="gui" value="$(arg gui)" />
         <arg name="debug" value="$(arg debug)" />
     </include>
+
+    <!-- mecanum -->
+    <!-- <include file="$(find zm_robot_description)/launch/zm_robot_spawn.launch" /> -->
+
+    <!-- omni -->
+    <!-- <include file="$(find omni3ros_pkg)/launch/velocity_controller.launch" /> -->
+    <!-- nornal -->
+    <include file="$(find sentory_description)/launch//* file_name */" />
 </launch>
