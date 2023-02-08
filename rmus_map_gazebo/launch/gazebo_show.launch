@@ -21,5 +21,5 @@
     <!-- omni -->
     <!-- <include file="$(find omni3ros_pkg)/launch/velocity_controller.launch" /> -->
     <!-- nornal -->
-    <include file="$(find sentory_description)/launch//* file_name */" />
+    <include file="$(find hero_description)/launch/hero_spawn.launch" />
 </launch>
